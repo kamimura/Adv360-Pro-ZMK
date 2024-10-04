@@ -80,21 +80,21 @@
 
         layer_ls {
             bindings = <
- &trans         &trans        &trans      &trans      &trans      &trans            &trans                                                  &trans     &trans     &trans     &trans     &trans     &trans         &trans
- &trans         &kp N1        &kp N2      &kp N3      &kp N4      &kp N5            &trans                                                  &trans  &kp LS(F)  &kp LS(G)  &kp LS(C)  &kp LS(R)  &kp LS(L)   &kp LS(FSLH)
- &trans  &kp RS(EQUAL)  &kp RS(LBKT)    &kp LBKT  &kp RS(N9)  &kp RS(N8)            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LS(D)  &kp LS(H)  &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(MINUS)
- &trans  &kp RS(GRAVE)    &kp RS(N4)  &kp RS(N7)  &kp RS(N5)      &trans                            &trans                  &trans                  &kp LS(B)  &kp LS(M)  &kp LS(W)  &kp LS(V)  &kp LS(Z)         &trans
- &trans         &trans        &trans      &trans      &trans                        &trans  &trans  &trans                  &trans  &trans  &trans                &trans     &trans     &trans     &trans         &trans
+        &trans         &trans        &trans        &trans         &trans      &trans            &trans                                                  &trans     &trans      &trans        &trans     &trans     &trans         &trans
+   &kp LS(TAB)         &kp N1        &kp N2        &kp N3         &kp N4      &kp N5            &trans                                                  &trans  &kp LS(F)   &kp LS(G)     &kp LS(C)  &kp LS(R)  &kp LS(L)   &kp LS(FSLH)
+ &kp LS(ENTER)  &kp RS(EQUAL)  &kp RS(LBKT)      &kp LBKT     &kp RS(N9)  &kp RS(N8)            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LS(D)   &kp LS(H)     &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(MINUS)
+  &kp LS(BSPC)  &kp RS(GRAVE)    &kp RS(N4)    &kp RS(N7)     &kp RS(N5)      &trans                            &trans                  &trans                  &kp LS(B)   &kp LS(M)     &kp LS(W)  &kp LS(V)  &kp LS(Z)    &kp LS(DEL)
+        &trans         &trans        &trans  &kp LS(LEFT)  &kp LS(RIGHT)                        &trans  &trans  &trans                  &trans  &trans  &trans             &kp LS(UP)  &kp LS(DOWN)     &trans     &trans         &trans
             >;
         };
 
         layer_rs {
             bindings = <
- &trans        &trans         &trans       &trans     &trans     &trans            &trans                                                  &trans        &trans      &trans    &trans        &trans     &trans      &trans
- &trans   &kp RS(SQT)  &kp RS(COMMA)  &kp RS(DOT)  &kp RS(P)  &kp RS(Y)            &trans                                                  &trans        &kp N6      &kp N7    &kp N8        &kp N9     &kp N0      &trans
- &trans     &kp RS(A)      &kp RS(O)    &kp RS(E)  &kp RS(U)  &kp RS(I)            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LS(BSLH)  &kp LS(N0)  &kp RBKT  &kp LS(RBKT)  &kp EQUAL  &kp RS(N1)
- &trans  &kp RS(SEMI)      &kp RS(Q)    &kp RS(J)  &kp RS(K)  &kp RS(X)                            &trans                  &trans                    &kp LS(N6)  &kp LS(N3)  &kp BSLH    &kp LS(N2)  &kp GRAVE      &trans
- &trans        &trans         &trans       &trans     &trans                       &trans  &trans  &trans                  &trans  &trans  &trans                    &trans    &trans        &trans     &trans      &trans
+        &trans        &trans         &trans        &trans         &trans     &trans            &trans                                                  &trans        &trans      &trans        &trans        &trans     &trans      &trans
+   &kp RS(TAB)   &kp RS(SQT)  &kp RS(COMMA)   &kp RS(DOT)      &kp RS(P)  &kp RS(Y)            &trans                                                  &trans        &kp N6      &kp N7        &kp N8        &kp N9     &kp N0      &trans
+ &kp RS(ENTER)     &kp RS(A)      &kp RS(O)     &kp RS(E)      &kp RS(U)  &kp RS(I)            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LS(BSLH)  &kp LS(N0)      &kp RBKT  &kp LS(RBKT)  &kp EQUAL  &kp RS(N1)
+  &kp RS(BSPC)  &kp RS(SEMI)      &kp RS(Q)     &kp RS(J)      &kp RS(K)  &kp RS(X)                            &trans                  &trans                    &kp LS(N6)  &kp LS(N3)      &kp BSLH    &kp LS(N2)  &kp GRAVE      &trans
+        &trans        &trans         &trans  &kp RS(LEFT)  &kp RS(RIGHT)                       &trans  &trans  &trans                  &trans  &trans  &trans                &kp RS(UP)  &kp RS(DOWN)        &trans     &trans      &trans
             >;
         };
 
