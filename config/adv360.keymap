@@ -27,11 +27,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL      &kp N1         &kp N2     &kp N3      &kp N4     &kp N5  &tog 1                                                    &mo 3      &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &kp MINUS
-&kp TAB        &kp SQT        &kp COMMA  &kp PERIOD  &kp P      &kp Y   &none                                                     &none      &kp F   &kp G   &kp C     &kp R     &kp L     &kp SLASH
-&kp ENTER      &kp A          &kp O      &kp E       &kp U      &kp I   &none      &kp LGUI  &kp LALT        &kp RALT   &kp RGUI  &none      &kp D   &kp H   &kp T     &kp N     &kp S     &kp MINUS
-&kp BACKSPACE  &kp SEMICOLON  &kp Q      &kp J       &kp K      &kp X                        &kp LCTRL       &kp RCTRL                       &kp B   &kp M   &kp W     &kp V     &kp Z     &kp DELETE
-&mo 2          &kp GRAVE      &kp CAPS   &kp LEFT    &kp RIGHT          &kp SPACE  &mo 4     &kp ESCAPE      &kp PG_DN  &mo 5     &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT  &mo 2
+&none          &none          &none      &none       &none      &none  &tog 1                                                        &mo 3      &none  &none   &none     &none  &none  &none
+&kp TAB        &kp SQT        &kp COMMA  &kp PERIOD  &kp P      &kp Y  &none                                                         &none      &kp F  &kp G   &kp C     &kp R  &kp L  &kp SLASH
+&kp ENTER      &kp A          &kp O      &kp E       &kp U      &kp I  &none      &kp LGUI  &kp LALT        &kp RALT       &kp RGUI  &none      &kp D  &kp H   &kp T     &kp N  &kp S  &kp MINUS
+&kp BACKSPACE  &kp SEMICOLON  &kp Q      &kp J       &kp K      &kp X                       &kp LCTRL       &kp RCTRL                           &kp B  &kp M   &kp W     &kp V  &kp Z  &kp DELETE
+&mo 2          &none          &none      &kp LEFT    &kp RIGHT         &kp SPACE  &mo 4     &kp ESCAPE      &kp LC(SPACE)  &mo 5     &kp SPACE         &kp UP  &kp DOWN  &none  &none  &mo 2
             >;
         };
 
@@ -68,24 +68,26 @@
             >;
         };
 
-        extra1 {
-            display-name = "Red";
-            status = "reserved";
+        layer_4 {
+            display-name = "Base";
+            bindings = <
+&none              &none         &none         &none             &none          &none      &tog 1                                                                        &mo 3          &none      &none       &none         &none      &none      &none
+&kp LS(TAB)        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4   &kp N5     &none                                                                         &none          &kp LS(F)  &kp LS(G)   &kp LS(C)     &kp LS(R)  &kp LS(L)  &kp LS(SLASH)
+&kp LS(ENTER)      &kp PLUS      &kp LBRC      &kp LEFT_BRACKET  &kp LPAR       &kp ASTRK  &none          &kp LS(LGUI)  &kp LS(LALT)        &kp LS(RALT)   &kp LS(RGUI)  &none          &kp LS(D)  &kp LS(H)   &kp LS(T)     &kp LS(N)  &kp LS(S)  &kp LS(MINUS)
+&kp LS(BACKSPACE)  &kp TILDE     &kp DOLLAR    &kp AMPS          &kp PERCENT    &none                                   &kp LS(LCTRL)       &kp LS(RCTRL)                               &kp LS(B)  &kp LS(M)   &kp LS(W)     &kp LS(V)  &kp LS(Z)  &kp LS(DELETE)
+&mo 2              &none         &none         &kp LS(LEFT)      &kp LS(RIGHT)             &kp LS(SPACE)  &none         &kp LS(ESCAPE)      &kp LC(SPACE)  &none         &kp LS(SPACE)             &kp LS(UP)  &kp LS(DOWN)  &none      &none      &mo 2
+            >;
         };
 
-        extra2 {
-            display-name = "Purple";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Cyan";
-            status = "reserved";
-        };
-
-        extra4 {
-            display-name = "Yellow";
-            status = "reserved";
+        layer_5 {
+            display-name = "Base";
+            bindings = <
+&none              &none                 &none          &none             &none          &none      &tog 1                                                                        &mo 3          &none         &none       &none          &none     &none      &none
+&kp RS(TAB)        &kp RS(SINGLE_QUOTE)  &kp LESS_THAN  &kp GREATER_THAN  &kp RS(P)      &kp RS(Y)  &none                                                                         &none          &kp NUMBER_6  &kp N7      &kp N8         &kp N9    &kp N0     &none
+&kp RS(ENTER)      &kp RS(A)             &kp RS(O)      &kp RS(E)         &kp RS(U)      &kp RS(I)  &none          &kp RS(LGUI)  &kp RS(LALT)        &kp RS(RALT)   &kp RS(RGUI)  &none          &kp PIPE      &kp RPAR    &kp RBKT       &kp RBRC  &kp EQUAL  &kp EXCL
+&kp RS(BACKSPACE)  &kp RS(SEMICOLON)     &kp RS(Q)      &kp RS(J)         &kp RS(K)      &kp RS(X)                               &kp RS(LCTRL)       &kp RS(RCTRL)                               &kp CARET     &kp HASH    &kp BACKSLASH  &kp AT    &kp GRAVE  &kp RS(DELETE)
+&mo 2              &none                 &none          &kp RS(LEFT)      &kp RS(RIGHT)             &kp RS(SPACE)  &none         &kp RS(ESCAPE)      &kp LC(SPACE)  &none         &kp RS(SPACE)                &kp RS(UP)  &kp RS(DOWN)   &none     &none      &mo 2
+            >;
         };
     };
 };
