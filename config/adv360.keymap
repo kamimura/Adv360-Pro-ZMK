@@ -71,11 +71,11 @@
         layer_4 {
             display-name = "Base";
             bindings = <
-&none              &kp LS(N1)    &kp LS(N2)    &kp LS(N3)        &kp LS(N4)     &kp LS(N5)  &tog 1                                                                         &mo 3          &kp LS(N6)  &kp LS(N7)  &kp LS(N8)    &kp LS(N9)  &kp LS(N0)  &none
-&kp LS(TAB)        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4   &kp N5      &none                                                                          &none          &kp LS(F)   &kp LS(G)   &kp LS(C)     &kp LS(R)   &kp LS(L)   &kp LS(SLASH)
-&kp LS(ENTER)      &kp PLUS      &kp LBRC      &kp LEFT_BRACKET  &kp LPAR       &kp ASTRK   &none          &kp LS(LGUI)  &kp LS(LALT)        &kp LS(RALT)   &kp LS(RGUI)   &none          &kp LS(D)   &kp LS(H)   &kp LS(T)     &kp LS(N)   &kp LS(S)   &kp LS(MINUS)
-&kp LS(BACKSPACE)  &kp TILDE     &kp DOLLAR    &kp AMPS          &kp PERCENT    &none                                    &kp LS(LCTRL)       &kp LS(RCTRL)                                &kp LS(B)   &kp LS(M)   &kp LS(W)     &kp LS(V)   &kp LS(Z)   &kp LS(DELETE)
-&mo 2              &none         &none         &kp LS(LEFT)      &kp LS(RIGHT)              &kp LS(SPACE)  &none         &kp LS(ESCAPE)      &kp LC(SPACE)  &kp LS(RSHFT)  &kp LS(SPACE)              &kp LS(UP)  &kp LS(DOWN)  &none       &none       &mo 2
+&none              &kp LS(N1)    &kp LS(N2)    &kp LS(N3)        &kp LS(N4)     &kp LS(N5)  &tog 1                                                                        &mo 3          &kp LS(N6)  &kp LS(N7)  &kp LS(N8)    &kp LS(N9)  &kp LS(N0)  &none
+&kp LS(TAB)        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4   &kp N5      &none                                                                         &none          &kp LS(F)   &kp LS(G)   &kp LS(C)     &kp LS(R)   &kp LS(L)   &kp LS(SLASH)
+&kp LS(ENTER)      &kp PLUS      &kp LBRC      &kp LEFT_BRACKET  &kp LPAR       &kp ASTRK   &none          &kp LS(LGUI)  &kp LS(LALT)        &kp LS(RALT)   &kp LS(RGUI)  &none          &kp LS(D)   &kp LS(H)   &kp LS(T)     &kp LS(N)   &kp LS(S)   &kp LS(MINUS)
+&kp LS(BACKSPACE)  &kp TILDE     &kp DOLLAR    &kp AMPS          &kp PERCENT    &none                                    &kp LS(LCTRL)       &kp LS(RCTRL)                               &kp LS(B)   &kp LS(M)   &kp LS(W)     &kp LS(V)   &kp LS(Z)   &kp LS(DELETE)
+&mo 2              &none         &none         &kp LS(LEFT)      &kp LS(RIGHT)              &kp LS(SPACE)  &none         &kp LS(ESCAPE)      &kp LC(SPACE)  &none         &kp LS(SPACE)              &kp LS(UP)  &kp LS(DOWN)  &none       &none       &mo 2
             >;
         };
 
