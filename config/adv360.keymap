@@ -82,11 +82,11 @@
         layer_5 {
             display-name = "Base";
             bindings = <
-&none              &kp RS(N1)            &kp RS(N2)     &kp RS(N3)        &kp RS(N4)     &kp RS(N5)  &tog 1                                                                         &mo 3          &kp RS(N6)    &kp RS(N7)  &kp RS(N8)     &kp RS(N9)  &kp RS(N0)  &none
-&kp RS(TAB)        &kp RS(SINGLE_QUOTE)  &kp LESS_THAN  &kp GREATER_THAN  &kp RS(P)      &kp RS(Y)   &none                                                                          &none          &kp NUMBER_6  &kp N7      &kp N8         &kp N9      &kp N0      &none
-&kp RS(ENTER)      &kp RS(A)             &kp RS(O)      &kp RS(E)         &kp RS(U)      &kp RS(I)   &none          &kp RS(LGUI)   &kp RS(LALT)        &kp RS(RALT)   &kp RS(RGUI)  &none          &kp PIPE      &kp RPAR    &kp RBKT       &kp RBRC    &kp EQUAL   &kp EXCL
-&kp RS(BACKSPACE)  &kp RS(SEMICOLON)     &kp RS(Q)      &kp RS(J)         &kp RS(K)      &kp RS(X)                                 &kp RS(LCTRL)       &kp RS(RCTRL)                               &kp CARET     &kp HASH    &kp BACKSLASH  &kp AT      &kp GRAVE   &kp RS(DELETE)
-&mo 2              &none                 &none          &kp RS(LEFT)      &kp RS(RIGHT)              &kp RS(SPACE)  &kp RS(LSHFT)  &kp RS(ESCAPE)      &kp LC(SPACE)  &none         &kp RS(SPACE)                &kp RS(UP)  &kp RS(DOWN)   &none       &none       &mo 2
+&none              &kp RS(N1)            &kp RS(N2)     &kp RS(N3)        &kp RS(N4)     &kp RS(N5)  &tog 1                                                                        &mo 3          &kp RS(N6)    &kp RS(N7)  &kp RS(N8)     &kp RS(N9)  &kp RS(N0)  &none
+&kp RS(TAB)        &kp RS(SINGLE_QUOTE)  &kp LESS_THAN  &kp GREATER_THAN  &kp RS(P)      &kp RS(Y)   &none                                                                         &none          &kp NUMBER_6  &kp N7      &kp N8         &kp N9      &kp N0      &none
+&kp RS(ENTER)      &kp RS(A)             &kp RS(O)      &kp RS(E)         &kp RS(U)      &kp RS(I)   &none          &kp RS(LGUI)  &kp RS(LALT)        &kp RS(RALT)   &kp RS(RGUI)  &none          &kp PIPE      &kp RPAR    &kp RBKT       &kp RBRC    &kp EQUAL   &kp EXCL
+&kp RS(BACKSPACE)  &kp RS(SEMICOLON)     &kp RS(Q)      &kp RS(J)         &kp RS(K)      &kp RS(X)                                &kp RS(LCTRL)       &kp RS(RCTRL)                               &kp CARET     &kp HASH    &kp BACKSLASH  &kp AT      &kp GRAVE   &kp RS(DELETE)
+&mo 2              &none                 &none          &kp RS(LEFT)      &kp RS(RIGHT)              &kp RS(SPACE)  &none         &kp RS(ESCAPE)      &kp LC(SPACE)  &none         &kp RS(SPACE)                &kp RS(UP)  &kp RS(DOWN)   &none       &none       &mo 2
             >;
         };
     };
